@@ -1,0 +1,19 @@
+.offers {
+  width: 65%;
+  height: 40vh;
+  padding: 0px 140px;
+
+}
+.offers-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 50px;
+}
+.offers-left h1 {
+  @apply text-6xl font-semibold mb-2;
+}
+.offers-left p {
+  @apply text-2xl;
+}

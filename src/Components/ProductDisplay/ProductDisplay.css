@@ -1,0 +1,32 @@
+.productdisplay {
+  padding: 20px;
+}
+.productdisplay-left {
+}
+.productdisplay-img-list img {
+    border-radius: 20px;
+}
+.productdisplay-img {
+}
+.productdisplay-main-img img {
+  height: 700px;
+  border-radius: 20px;
+}
+.productdisplay_stars img {
+  min-width: 20px;
+  min-height: 20px;
+  border-radius: 20px;
+}
+.productdisplay-right-sizes div {
+  @apply border p-2;
+}
+.productdisplay-right-sizes div:hover {
+  @apply border p-2 bg-slate-200;
+}
+.productdisplay-right {
+  width: 60%;
+  padding: 50px;
+}
+.productdisplay-img-list {
+  width: 20%;
+}
