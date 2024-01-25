@@ -68,12 +68,6 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="nav-login-cart flex items-center">
-        <Link to="/login">
-          <button className="font-semibold text-xl border px-2 rounded-lg cursor-pointer active:bg-orange-200">
-            Login
-          </button>
-        </Link>
-
         <Link to="/cart">
           <img src={cart_icon} alt="" />
         </Link>
